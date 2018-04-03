@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89FA0AEC508106A14C2E279E /* Pods_SGXMPPHandler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A99F099CED735DAF43BF1B9E /* Pods_SGXMPPHandler.framework */; };
 		B7FF27982073E18B0010E7EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7FF27972073E18B0010E7EA /* AppDelegate.m */; };
 		B7FF279B2073E18B0010E7EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7FF279A2073E18B0010E7EA /* ViewController.m */; };
 		B7FF279E2073E18B0010E7EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7FF279C2073E18B0010E7EA /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		B7FF27A32073E18B0010E7EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7FF27A12073E18B0010E7EA /* LaunchScreen.storyboard */; };
 		B7FF27A62073E18B0010E7EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7FF27A52073E18B0010E7EA /* main.m */; };
 		B7FF27B02073E18B0010E7EA /* SGXMPPHandlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7FF27AF2073E18B0010E7EA /* SGXMPPHandlerTests.m */; };
+		D3FB2CD68825EB9F98C47632 /* Pods_SGXMPPHandlerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D87B4912B8AFBCAC1DC01C8 /* Pods_SGXMPPHandlerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03AB8285D011F863E7929CA5 /* Pods-SGXMPPHandler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGXMPPHandler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SGXMPPHandler/Pods-SGXMPPHandler.debug.xcconfig"; sourceTree = "<group>"; };
+		13856285585E2594DD5B797B /* Pods-SGXMPPHandlerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGXMPPHandlerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SGXMPPHandlerTests/Pods-SGXMPPHandlerTests.release.xcconfig"; sourceTree = "<group>"; };
+		28EF6A1CBEBA71AD7F37E6C9 /* Pods-SGXMPPHandler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGXMPPHandler.release.xcconfig"; path = "Pods/Target Support Files/Pods-SGXMPPHandler/Pods-SGXMPPHandler.release.xcconfig"; sourceTree = "<group>"; };
+		5D87B4912B8AFBCAC1DC01C8 /* Pods_SGXMPPHandlerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SGXMPPHandlerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A99F099CED735DAF43BF1B9E /* Pods_SGXMPPHandler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SGXMPPHandler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7FF27932073E18B0010E7EA /* SGXMPPHandler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGXMPPHandler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7FF27962073E18B0010E7EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B7FF27972073E18B0010E7EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -40,6 +47,7 @@
 		B7FF27AB2073E18B0010E7EA /* SGXMPPHandlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGXMPPHandlerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7FF27AF2073E18B0010E7EA /* SGXMPPHandlerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGXMPPHandlerTests.m; sourceTree = "<group>"; };
 		B7FF27B12073E18B0010E7EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E734CB4EA8EA1F0789D9A921 /* Pods-SGXMPPHandlerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGXMPPHandlerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SGXMPPHandlerTests/Pods-SGXMPPHandlerTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89FA0AEC508106A14C2E279E /* Pods_SGXMPPHandler.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3FB2CD68825EB9F98C47632 /* Pods_SGXMPPHandlerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +76,8 @@
 				B7FF27952073E18B0010E7EA /* SGXMPPHandler */,
 				B7FF27AE2073E18B0010E7EA /* SGXMPPHandlerTests */,
 				B7FF27942073E18B0010E7EA /* Products */,
+				BCC43FDA7A641EE4984B59F8 /* Pods */,
+				BB8BC7382E12F3B6B4BEC565 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +115,26 @@
 			path = SGXMPPHandlerTests;
 			sourceTree = "<group>";
 		};
+		BB8BC7382E12F3B6B4BEC565 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A99F099CED735DAF43BF1B9E /* Pods_SGXMPPHandler.framework */,
+				5D87B4912B8AFBCAC1DC01C8 /* Pods_SGXMPPHandlerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCC43FDA7A641EE4984B59F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03AB8285D011F863E7929CA5 /* Pods-SGXMPPHandler.debug.xcconfig */,
+				28EF6A1CBEBA71AD7F37E6C9 /* Pods-SGXMPPHandler.release.xcconfig */,
+				E734CB4EA8EA1F0789D9A921 /* Pods-SGXMPPHandlerTests.debug.xcconfig */,
+				13856285585E2594DD5B797B /* Pods-SGXMPPHandlerTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -110,9 +142,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7FF27B42073E18B0010E7EA /* Build configuration list for PBXNativeTarget "SGXMPPHandler" */;
 			buildPhases = (
+				814EB40DEA5DB2753A6991D6 /* [CP] Check Pods Manifest.lock */,
 				B7FF278F2073E18B0010E7EA /* Sources */,
 				B7FF27902073E18B0010E7EA /* Frameworks */,
 				B7FF27912073E18B0010E7EA /* Resources */,
+				8247598DCB730DC962D36A5A /* [CP] Embed Pods Frameworks */,
+				44E5EE452D6D5C2F0C0422B9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7FF27B72073E18B0010E7EA /* Build configuration list for PBXNativeTarget "SGXMPPHandlerTests" */;
 			buildPhases = (
+				30BD15F79BCA463748A8F42F /* [CP] Check Pods Manifest.lock */,
 				B7FF27A72073E18B0010E7EA /* Sources */,
 				B7FF27A82073E18B0010E7EA /* Frameworks */,
 				B7FF27A92073E18B0010E7EA /* Resources */,
+				D98B0D24D3925DECB1846E62 /* [CP] Embed Pods Frameworks */,
+				34C4C095348E09031EF84EF9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,6 +237,114 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30BD15F79BCA463748A8F42F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SGXMPPHandlerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34C4C095348E09031EF84EF9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SGXMPPHandlerTests/Pods-SGXMPPHandlerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44E5EE452D6D5C2F0C0422B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SGXMPPHandler/Pods-SGXMPPHandler-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		814EB40DEA5DB2753A6991D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SGXMPPHandler-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8247598DCB730DC962D36A5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SGXMPPHandler/Pods-SGXMPPHandler-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+				"${BUILT_PRODUCTS_DIR}/KissXML/KissXML.framework",
+				"${BUILT_PRODUCTS_DIR}/XMPPFramework/XMPPFramework.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KissXML.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XMPPFramework.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SGXMPPHandler/Pods-SGXMPPHandler-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D98B0D24D3925DECB1846E62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SGXMPPHandlerTests/Pods-SGXMPPHandlerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B7FF278F2073E18B0010E7EA /* Sources */ = {
@@ -355,6 +501,7 @@
 		};
 		B7FF27B52073E18B0010E7EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03AB8285D011F863E7929CA5 /* Pods-SGXMPPHandler.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -369,6 +516,7 @@
 		};
 		B7FF27B62073E18B0010E7EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28EF6A1CBEBA71AD7F37E6C9 /* Pods-SGXMPPHandler.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -383,6 +531,7 @@
 		};
 		B7FF27B82073E18B0010E7EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E734CB4EA8EA1F0789D9A921 /* Pods-SGXMPPHandlerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -398,6 +547,7 @@
 		};
 		B7FF27B92073E18B0010E7EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13856285585E2594DD5B797B /* Pods-SGXMPPHandlerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
